@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    
+</head>
+<body>
+    <h1>This is a kwiz!</h1>
+    <form id="quiz" name="quiz">
+        <p>What is the capitol of Rhode Island?</p>
+        <input id="textbox" type="text" name="question1">
+
+        <p>What is the capitol of Connecticut?</p>
+        <input id="mc" type="radio" name="question2" value="Hartford">Hartford <br>
+        <input id="mc" type="radio" name="question2" value="Heartford">HeartFord <br>
+
+        <p>What is the capitol of New York</p>
+        <input id="mc" type="radio" name="question3" value="New York">New York <br>
+        <input id="mc" type="radio" name="question3" value="Albany">Albany  <br>
+
+        <input id="button "type="button" value="I'm Finished!!!" onclick="check();"> 
+    </form>
+
+        <div id="after_submit">
+            <p id="message"></p>
+            <p id="number_correct"></p>
+            <img src="" alt="" id="picture">
+        </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
